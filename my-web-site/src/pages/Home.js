@@ -1,5 +1,7 @@
 export default function Home(){
     return (
-        <h1>HOME CONTENIDO</h1>
-    )
+<div>
+            <h1 style={{marginBottom: '000px'}}>HOME CONTENIDO</h1>
+    
+</div>    )
 }

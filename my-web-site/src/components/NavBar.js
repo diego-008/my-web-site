@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Logo from './Img/logo.PNG'
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-primary">
+    <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-primary">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
 
@@ -21,17 +21,17 @@ export default function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav" style={{fontSize: '30px'}}>
+          <div className="navbar-nav ms-auto" style={{fontSize: '30px'}}>
             <Link className="nav-link active" aria-current="page" to="/projects">
               PROJECTS
             </Link>
-            <Link className="nav-link active" to="#">
+            <Link className="nav-link active ms-lg-5" to="#">
               Features
             </Link>
-            <Link className="nav-link  active" to="#">
+            <Link className="nav-link  active ms-lg-5" to="#">
               Pricing
             </Link>
-            <Link className="nav-link active" to="#">Disabled</Link>
+            <Link className="nav-link active ms-lg-5" to="#">Disabled</Link>
           </div>
         </div>
       </div>
