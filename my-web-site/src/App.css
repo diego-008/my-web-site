@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto+Mono:wght@100;200&display=swap');
+
+/* html {
+  min-height: 100%;
+} */
 body {
   font-family: "Orelega One", cursive;
-  /* min-height:100vh; */
-  /* border: solid 5px red; */
-  /* background-color: aqua; */
+  background-color:red;
+  margin: 0;
+}
+
+.principal{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }

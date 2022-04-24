@@ -6,16 +6,18 @@ import Projects from './pages/Projects';
 import Footer from './components/Footer';
 function App() {
   return (
-    <Router>
-      <div className="border border-primary position-relative" style={{minHeight:'100vh'}}>
-        <NavBar />
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <div className='principal'>
+      <Router>
+        {/* <div className="border border-primary position-relative" style={{minHeight:'100vh'}}> */}
+          <NavBar />
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+          <Footer />
+        {/* </div> */}
+      </Router>
+    </div>
   );
 }
 
