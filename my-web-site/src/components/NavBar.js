@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import Logo from './Img/logo.PNG'
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
 
