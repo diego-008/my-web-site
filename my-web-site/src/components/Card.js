@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { Redirect } from "react-router-dom";
 export default function Card(props) {
   return (
     <div className="card" style={{width: '18rem'}}>
@@ -5,11 +7,10 @@ export default function Card(props) {
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          {props.text}
         </p>
-        <a href="#" className="btn btn-primary">
-          Go somewhere
+        <a href={props.link} target="_blank" className="btn btn-primary">
+          Ver Proyecto
         </a>
       </div>
     </div>
