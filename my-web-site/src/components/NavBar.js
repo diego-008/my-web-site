@@ -25,7 +25,7 @@ export default function NavBar() {
             <Link className="nav-link active" aria-current="page" to="/projects">
               PROJECTS
             </Link>
-            <Link className="nav-link active ms-lg-5" to="#">
+            <Link className="nav-link active ms-lg-5" to="/skills">
               SKILLS
             </Link>
             <Link className="nav-link  active ms-lg-5" to="#">

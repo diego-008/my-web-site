@@ -4,10 +4,10 @@ export default function Home() {
     <div className='container mb-5' style={{marginTop: '110px'}}>
       <div className="row align-items-center">
       <div className='col-md-8'>
-        <img src={Computer} alt="logo" className="img-fluid" style={{width: '100%'}}/>
+        <img src={Computer} alt="logo" className="img-fluid animate__animated animate__heartBeat" style={{width: '100%'}}/>
           
         </div>
-        <div className="col-md-4 mt-md-0 mt-5">
+        <div className="col-md-4 mt-md-0 mt-5 animate__animated animate__bounceInDown">
           <p className='text-light h1'>Diego Alexander Acetún Chicol</p>  
           
           <p className='text-light h3'>Desarrollador Web con experiencia en proyectos desarrollados en la Universidad</p>
