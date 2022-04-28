@@ -23,13 +23,13 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto" style={{fontSize: '30px'}}>
             <Link className="nav-link active" aria-current="page" to="/projects">
-              PROJECTS
+              PROJECT5
             </Link>
             <Link className="nav-link active ms-lg-5" to="/skills">
-              BASIC SKILLS
+              BA5IC 5KILL5
             </Link>
             <Link className="nav-link  active ms-lg-5" to="/programskills">
-              DEVELOPMENT SKILLS
+              DEVELOPMENT 5KILL5
             </Link>
           </div>
         </div>
