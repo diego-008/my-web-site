@@ -6,6 +6,7 @@ export default function ProgramSkills() {
       <Progress width="30" title="Java" color="warning" />
       <Progress width="80" title="Html" color="info" />
       <Progress width="60" title="CSS" color="info" />
+      <Progress width="60" title="Rect" color="info" />
       <Progress width="80" title="Bootstrap" color="info" />
       <Progress width="30" title="JavaScript" color="warning" />
 

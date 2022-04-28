@@ -1,7 +1,7 @@
 import Card from "../components/Card";
 import Reproductor from './img/reproductor.jpg'
 import Pixel from './img/pixel.jpg'
-import Contacts from './img/contacts.png'
+import Contacts from './img/contacts.jpg'
 import Products from './img/products.jpg'
 export default function Projects() {
     
