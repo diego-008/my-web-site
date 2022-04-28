@@ -13,7 +13,7 @@ function App() {
         {/* <div className="border border-primary position-relative" style={{minHeight:'100vh'}}> */}
           <NavBar />
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/my-web-site" element={<Home />} />
             <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/skills" element={<Skills />} />
             <Route exact path="/programskills" element={<ProgramSkills />} />

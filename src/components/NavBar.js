@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark custom-navbar">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/my-web-site">
 
         <i className="fa-solid fa-house fa-2x"></i>
           
@@ -23,13 +23,13 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav ms-auto" style={{fontSize: '30px'}}>
             <Link className="nav-link active" aria-current="page" to="/projects">
-              PROJECT5
+              PROJECTS
             </Link>
             <Link className="nav-link active ms-lg-5" to="/skills">
-              BA5IC 5KILL5
+              BASIC SKILLS
             </Link>
             <Link className="nav-link  active ms-lg-5" to="/programskills">
-              DEVELOPMENT 5KILL5
+              DEVELOPMENT SKILLS
             </Link>
           </div>
         </div>
