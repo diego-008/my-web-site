@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
-import Logo from './Img/logo.PNG'
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
 
-          <img src={Logo} alt="logo" className="" style={{width: '50px'}} />
+        <i className="fa-solid fa-house fa-2x"></i>
           
         </Link>
         <button
@@ -26,10 +25,10 @@ export default function NavBar() {
               PROJECTS
             </Link>
             <Link className="nav-link active ms-lg-5" to="/skills">
-              SKILLS
+              BASIC SKILLS
             </Link>
-            <Link className="nav-link  active ms-lg-5" to="#">
-              EDUCATION
+            <Link className="nav-link  active ms-lg-5" to="/programskills">
+              PROGRAM SKILLS
             </Link>
           </div>
         </div>

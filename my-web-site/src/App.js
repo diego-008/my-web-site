@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Footer from './components/Footer';
 import Skills from './pages/Skills';
+import ProgramSkills from './pages/ProgramSkills';
 function App() {
   return (
     <div className='principal'>
@@ -15,6 +16,7 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/skills" element={<Skills />} />
+            <Route exact path="/programskills" element={<ProgramSkills />} />
             
           </Routes>
           <Footer />
