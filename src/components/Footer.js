@@ -2,7 +2,7 @@ import "./css/footer.css";
 import FontAwesomeIcon from "../components/FontAwesomeIcon";
 export default function Footer() {
   return (
-    <footer className="">
+    <footer className="mt-auto">
       <div className="container-fluid text-light">
         <div className="row justify-content-center">
           <div className="col-sm-4 d-flex justify-content-center border border-primary py-2">

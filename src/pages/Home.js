@@ -1,8 +1,8 @@
 import Computer from './img/computer.jpg';
 export default function Home() {
   return (
-    <div className='container mb-5' style={{marginTop: '110px'}}>
-      <div className="row align-items-center">
+    <div className='container mt-auto'>
+      <div className="row align-items-center" style={{marginTop: '110px', marginBottom: "40px"}}>
       <div className='col-md-8'>
         <img src={Computer} alt="logo" className="img-fluid animate__animated animate__heartBeat" style={{width: '100%'}}/>
           

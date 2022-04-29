@@ -9,7 +9,11 @@ import DevclopmentSkills from './pages/DevelopmentSkills';
 import Contact from './pages/Contact';
 function App() {
   return (
-    <div className='principal'>
+    <div className="principal d-flex flex-column">
+  {/* <div className="mb-auto">Flex item</div>
+  <div className="">Flex item</div>
+  <div className="">Flex item</div> */}
+
       <Router>
         {/* <div className="border border-primary position-relative" style={{minHeight:'100vh'}}> */}
           <NavBar />

@@ -6,8 +6,8 @@ import Products from './img/products.jpg'
 export default function Projects() {
     
     return(
-        <div className="container mb-5" style={{marginTop: '130px'}}>
-            <div className="row align-items-center">
+        <div className="container mt-auto mb-5">
+            <div className="row align-items-center" style={{marginTop: '130px'}}>
                 <div className="col-lg-4 d-flex justify-content-center">
                     <Card title='Reproductor Web' imagen={Reproductor} link="https://github.com/diego-008/ReproductorWeb" text='Reproductor de música desarrollado con Django, implementando una api con Flask' />
                 </div>
