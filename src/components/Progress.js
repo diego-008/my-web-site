@@ -1,6 +1,6 @@
 export default function Progress(props) {
   return (
-    <div className="container animate__animated animate__backInLeft" style={{ marginTop: "50px" }}>
+    <div className="container" style={{ marginTop: "50px" }}>
       <div className="row align-items-center align-items-center">
         <div className="col-sm-3 text-light d-flex justify-content-sm-end">
           <p className="h2">{props.title}</p>

@@ -5,7 +5,8 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Footer from './components/Footer';
 import Skills from './pages/Skills';
-import ProgramSkills from './pages/ProgramSkills';
+import DevclopmentSkills from './pages/DevelopmentSkills';
+import Contact from './pages/Contact';
 function App() {
   return (
     <div className='principal'>
@@ -16,7 +17,8 @@ function App() {
             <Route exact path="/my-web-site" element={<Home />} />
             <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/skills" element={<Skills />} />
-            <Route exact path="/programskills" element={<ProgramSkills />} />
+            <Route exact path="/programskills" element={<DevclopmentSkills />} />
+            <Route exact path="/contact" element={<Contact />} />
             
           </Routes>
           <Footer />
