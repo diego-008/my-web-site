@@ -9,12 +9,8 @@ import DevclopmentSkills from './pages/DevelopmentSkills';
 function App() {
   return (
     <div className="principal d-flex flex-column">
-  {/* <div className="mb-auto">Flex item</div>
-  <div className="">Flex item</div>
-  <div className="">Flex item</div> */}
 
       <Router>
-        {/* <div className="border border-primary position-relative" style={{minHeight:'100vh'}}> */}
           <NavBar />
           <Routes>
             <Route exact path="/my-web-site" element={<Home />} />
@@ -24,7 +20,6 @@ function App() {
             
           </Routes>
           <Footer />
-        {/* </div> */}
       </Router>
     </div>
   );
