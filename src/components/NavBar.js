@@ -31,9 +31,6 @@ export default function NavBar() {
             <Link className="nav-link  active ms-lg-5" to="/programskills">
               DESARROLLO
             </Link>
-            <Link className="nav-link  active ms-lg-5" to="/contact">
-              CONTACTO
-            </Link>
           </div>
         </div>
       </div>

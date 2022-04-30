@@ -7,7 +7,8 @@ export default function Projects() {
     
     return(
         <div className="container mt-auto mb-5">
-            <div className="row align-items-center" style={{marginTop: '130px'}}>
+            <p className="text-light h1 mb-5 text-center" style={{marginTop: '120px'}}>Algunos proyectos que he desarrollado</p>
+            <div className="row align-items-center">
                 <div className="col-lg-4 d-flex justify-content-center">
                     <Card title='Reproductor Web' imagen={Reproductor} link="https://github.com/diego-008/ReproductorWeb" text='Reproductor de música desarrollado con Django, implementando una api con Flask' />
                 </div>
