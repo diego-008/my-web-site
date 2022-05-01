@@ -32,7 +32,7 @@ export default function NavBar() {
                 
                 aria-label="Toggle navigation"
               >PROYECTOS</button>
-              <p className="d-none d-lg-block">PROYECTOS</p>
+              <h1 className="d-none d-lg-block">PROYECTOS</h1>
             </Link>
             <Link className="nav-link active ms-lg-5" to="/skills">
             <button
@@ -45,7 +45,7 @@ export default function NavBar() {
             
                 aria-label="Toggle navigation"
               >HABILIDADES</button>
-              <p className="d-none d-lg-block">HABILIDADES</p>
+              <h1 className="d-none d-lg-block">HABILIDADES</h1>
             </Link>
             <Link className="nav-link  active ms-lg-5" to="/programskills">
             <button
@@ -58,7 +58,7 @@ export default function NavBar() {
               
                 aria-label="Toggle navigation"
               >DESARROLLO</button>
-              <p className="d-none d-lg-block">DESARROLLO</p>
+              <h1 className="d-none d-lg-block">DESARROLLO</h1>
             </Link>
           </div>
         </div>
