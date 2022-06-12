@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Orelega+One&family=Roboto+Mono:wght@100;200&display=swap");
-
-/* html {
-  min-height: 100%;
-} */
+html {
+  min-height: 100vh;
+}
 body {
-  font-family: "Orelega One", cursive;
+  font-family: "Orelega One";
   /* background-color:red; */
   background: #8e0e00; /* fallback for old browsers */
   background: -webkit-linear-gradient(

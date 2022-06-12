@@ -14,7 +14,7 @@ export default function Projects() {
           Algunos proyectos que he desarrollado
         </p>
         <div className="row align-items-center">
-          <div className="col-lg-4 d-flex justify-content-center mt-lg-0 mt-5">
+          <div className="col-lg-4 d-flex justify-content-center mb-lg-0 mb-5">
             <Card
               title="Buscador de películas"
               imagen={Movie}

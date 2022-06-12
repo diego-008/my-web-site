@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import "./css/navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHouse } from "@fortawesome/free-solid-svg-icons";
 export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar bg-dark">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/my-web-site">
-          <i className="fa-solid fa-house fa-2x"></i>
+          <FontAwesomeIcon icon={faHouse} size="2x" />
         </Link>
         <button
           className="navbar-toggler"
