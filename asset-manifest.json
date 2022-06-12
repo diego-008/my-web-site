@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/my-web-site/static/css/main.f1f28c5e.css",
-    "main.js": "/my-web-site/static/js/main.7ba57182.js",
+    "main.css": "/my-web-site/static/css/main.079e4b75.css",
+    "main.js": "/my-web-site/static/js/main.189475c0.js",
     "static/js/787.2fccb33f.chunk.js": "/my-web-site/static/js/787.2fccb33f.chunk.js",
+    "static/media/OrelegaOne-Regular.ttf": "/my-web-site/static/media/OrelegaOne-Regular.4ceedbbd136e6fb2937e.ttf",
     "static/media/computer.jpg": "/my-web-site/static/media/computer.13689dadfe4a4420ec4c.jpg",
     "static/media/movie.jpg": "/my-web-site/static/media/movie.7274b6e8c4d216b23734.jpg",
     "static/media/pixel.jpg": "/my-web-site/static/media/pixel.801245af97e0b0c29e20.jpg",
     "static/media/products.jpg": "/my-web-site/static/media/products.cb14f1d5c225f2172a73.jpg",
     "static/media/reproductor.jpg": "/my-web-site/static/media/reproductor.6a14b7cc46c80be0c8b5.jpg",
     "index.html": "/my-web-site/index.html",
-    "main.f1f28c5e.css.map": "/my-web-site/static/css/main.f1f28c5e.css.map",
-    "main.7ba57182.js.map": "/my-web-site/static/js/main.7ba57182.js.map",
+    "main.079e4b75.css.map": "/my-web-site/static/css/main.079e4b75.css.map",
+    "main.189475c0.js.map": "/my-web-site/static/js/main.189475c0.js.map",
     "787.2fccb33f.chunk.js.map": "/my-web-site/static/js/787.2fccb33f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1f28c5e.css",
-    "static/js/main.7ba57182.js"
+    "static/css/main.079e4b75.css",
+    "static/js/main.189475c0.js"
   ]
 }
