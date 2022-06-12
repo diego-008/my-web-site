@@ -21,7 +21,7 @@ export default function Home() {
             Desarrollador Web. Puedes ver algunos de los proyectos que he
             desarrollado {" "}
           </p>
-          <Link to="/projects" className="text-light fs-2">pulsando aquí</Link>
+          <Link to="/projects" className="text-light fs-1">pulsando aquí</Link>
         </div>
       </div>
     </div>
