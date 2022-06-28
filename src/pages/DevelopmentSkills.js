@@ -6,7 +6,7 @@ export default function ProgramSkills() {
         <p className="text-light h1 text-center">Mis hablidades de Desarrollo</p>
         <Progress width="80" title="Html" color="info" />
         <Progress width="50" title="CSS" color="info" />
-        <Progress width="70" title="JavaScript" color="warning" />
+        <Progress width="70" title="JavaScript" color="info" />
         <Progress width="70" title="Python" color="info" />
         <Progress width="80" title="Bootstrap" color="info" />
         <Progress width="60" title="Rect" color="info" />
