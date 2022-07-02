@@ -2,6 +2,7 @@ import "./css/footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faRectangleList } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <footer className="mt-auto">
@@ -35,14 +36,14 @@ export default function Footer() {
                 </div>
 
                 <div className="col-6 text-center">
-                  <a
-                    href="https://forms.gle/PFdcxcoCSJDi7p9Y9"
+                  <Link
+                    to="/contact"
                     className="text-light"
-                    target="_blank"
+                    // target="_blank"
                     rel="noreferrer"
                   >
                     <FontAwesomeIcon icon={faRectangleList} size="4x" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

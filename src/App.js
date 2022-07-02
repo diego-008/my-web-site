@@ -7,6 +7,7 @@ import Projects from './pages/Projects';
 import Footer from './components/Footer';
 import Skills from './pages/Skills';
 import DevclopmentSkills from './pages/DevelopmentSkills';
+import Contact from './pages/Contact';
 function App() {
   return (
     <div className="principal d-flex flex-column">
@@ -18,6 +19,7 @@ function App() {
             <Route exact path="/projects" element={<Projects />} />
             <Route exact path="/skills" element={<Skills />} />
             <Route exact path="/programskills" element={<DevclopmentSkills />} />
+            <Route exact path="/contact" element={<Contact />} />
             
           </Routes>
           <Footer />
