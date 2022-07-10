@@ -1,32 +1,23 @@
 import React from "react";
 import { useRef } from "react";
 import { useNavigate } from "react-router-dom";
+import { Fetch } from "../api/email";
 export default function Form(props) {
   const formulario = useRef();
   const navigate = useNavigate();
   const onSubmit = async (e) => {
     e.preventDefault();
-    console.log("presionado", formulario.current.email.value);
+    // console.log("presionado", formulario.current.email.value);
     // formulario.current.reset()
-    const name = formulario.current.name.value;
-    const email = formulario.current.email.value;
-    const message = formulario.current.message.value;
-    const send = {
-      name,
-      email,
-      message,
-    };
-    const res = await fetch("http://localhost:5000", {
-      method: "POST",
-      body: JSON.stringify(send),
-      headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-      },
-    });
-    const resp = await res.json();
-    console.log(resp);
-    navigate("/my-web-site")
+    const name = formulario.current.name.value.trim();
+    const email = formulario.current.email.value.trim();
+    const message = formulario.current.message.value.trim();
+    const res = await Fetch(email, name, message);
+    if (res && res.status === 200) {
+      console.log("todo bien");
+      return navigate("/my-web-site");
+    }
+    console.log("mal");
   };
   return (
     <div className="container">
@@ -34,15 +25,15 @@ export default function Form(props) {
         <div className="col-md-6">
           <form onSubmit={onSubmit} ref={formulario}>
             <div className="mb-3">
-              <label htmlFor="exampleInputPassword1" className="form-label">
+              <label htmlFor="name" className="form-label">
                 Nombre
               </label>
               <input type="text" className="form-control" name="name" />
             </div>
             <div className="mb-3">
-              <label htmlFor="exampleInputPassword1" className="form-label">
+              <label htmlFor="email" className="form-label">
                 <div className="mb-3">
-                  <label htmlFor="exampleInputEmail1" className="form-label">
+                  <label htmlFor="email" className="form-label">
                     Correo electrónico
                   </label>
                   <input
