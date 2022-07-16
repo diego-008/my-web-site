@@ -36,7 +36,7 @@ export default function Footer() {
 
                 <div className="col-6 text-center">
                   <a
-                    href="https://forms.gle/PFdcxcoCSJDi7p9Y9"
+                    href="https://forms.gle/vqpQtMYyBgaigGn77"
                     className="text-light"
                     target="_blank"
                     rel="noreferrer"
