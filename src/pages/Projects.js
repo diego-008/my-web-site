@@ -18,7 +18,7 @@ export default function Projects() {
             <Card
               title="Buscador de películas"
               imagen={Movie}
-              link="https://dxander-movie-app.netlify.app/"
+              link="https://diego-acetun-movie-app.netlify.app/"
               text="Aplicación realizada consumiendo la API OMDb"
             />
           </div>
