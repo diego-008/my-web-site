@@ -9,7 +9,7 @@ export default function ProgramSkills() {
         <Progress width="70" title="JavaScript" color="info" />
         <Progress width="70" title="Python" color="info" />
         <Progress width="80" title="Bootstrap" color="info" />
-        <Progress width="60" title="Rect" color="info" />
+        <Progress width="60" title="React" color="info" />
         <Progress width="30" title="Java" color="warning" />
       </div>
 
