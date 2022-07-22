@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import Computer from "./img/computer.jpg";
 export default function Home() {
   return (
+    <>
     <div className="container mt-auto">
       <div
         className="row align-items-center"
@@ -25,5 +26,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </>
   );
 }

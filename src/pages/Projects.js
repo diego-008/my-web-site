@@ -6,6 +6,7 @@ import Movie from './img/movie.jpg'
 export default function Projects() {
     
     return (
+      <>
       <div className="container mt-auto mb-5">
         <p
           className="text-light h1 mb-5 text-center"
@@ -58,5 +59,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
+      </>
     );
 }

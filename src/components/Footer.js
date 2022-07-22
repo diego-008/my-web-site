@@ -2,7 +2,7 @@ import "./css/footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faRectangleList } from "@fortawesome/free-solid-svg-icons";
-export default function Footer() {
+export default function Footer({ displayParagraph }) {
   return (
     <footer className="mt-auto">
       <div className="container-fluid text-light">
