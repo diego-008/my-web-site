@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-web-site/static/css/main.31759c0a.css",
-    "main.js": "/my-web-site/static/js/main.86b1b289.js",
+    "main.js": "/my-web-site/static/js/main.d251380d.js",
     "static/js/787.2fccb33f.chunk.js": "/my-web-site/static/js/787.2fccb33f.chunk.js",
     "static/media/OrelegaOne-Regular.ttf": "/my-web-site/static/media/OrelegaOne-Regular.4ceedbbd136e6fb2937e.ttf",
     "static/media/computer.jpg": "/my-web-site/static/media/computer.13689dadfe4a4420ec4c.jpg",
@@ -11,11 +11,11 @@
     "static/media/reproductor.jpg": "/my-web-site/static/media/reproductor.6a14b7cc46c80be0c8b5.jpg",
     "index.html": "/my-web-site/index.html",
     "main.31759c0a.css.map": "/my-web-site/static/css/main.31759c0a.css.map",
-    "main.86b1b289.js.map": "/my-web-site/static/js/main.86b1b289.js.map",
+    "main.d251380d.js.map": "/my-web-site/static/js/main.d251380d.js.map",
     "787.2fccb33f.chunk.js.map": "/my-web-site/static/js/787.2fccb33f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31759c0a.css",
-    "static/js/main.86b1b289.js"
+    "static/js/main.d251380d.js"
   ]
 }
